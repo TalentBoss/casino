@@ -80,7 +80,7 @@ const Characters = ( ) => {
         }
         </tbody>
       </table>
-      {characters.length === 0 ? (<img src="/loading.gif" alt="loading" style={{marginLeft: '48%'}} />) : ''}
+      {originalData.length === 0 ? (<img src="/loading.gif" alt="loading" style={{marginLeft: '48%'}} />) : ''}
     </div>
   )
 }
